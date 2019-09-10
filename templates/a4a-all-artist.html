@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>A4A Events</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- Custom box css -->
+        <link href="assets/libs/custombox/custombox.min.css" rel="stylesheet">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            <!-- Topbar Start -->
+            <div class="navbar-custom">
+                <ul class="list-unstyled topnav-menu float-right mb-0">
+
+                    <li class="d-none d-sm-block">
+                        <form class="app-search">
+                            <div class="app-search-box">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <div class="input-group-append">
+                                        <button class="btn" type="submit">
+                                            <i class="fe-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+        
+                    <li class="dropdown notification-list">
+                        <a class="nav-link dropdown-toggle  waves-effect waves-light" data-toggle="dropdown" href="apps-contacts.html#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <i class="fe-bell noti-icon"></i>
+                            <span class="badge badge-danger rounded-circle noti-icon-badge">9</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h5 class="m-0">
+                                    <span class="float-right">
+                                        <a href="" class="text-dark">
+                                            <small>Clear All</small>
+                                        </a>
+                                    </span>Notification
+                                </h5>
+                            </div>
+
+                            <div class="slimscroll noti-scroll">
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item active">
+                                    <div class="notify-icon">
+                                        <img src="assets/images/users/user-1.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                    <p class="notify-details">Cristina Pride</p>
+                                    <p class="text-muted mb-0 user-msg">
+                                        <small>Hi, How are you? What about our next meeting</small>
+                                    </p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-primary">
+                                        <i class="mdi mdi-comment-account-outline"></i>
+                                    </div>
+                                    <p class="notify-details">Caleb Flakelar commented on Admin
+                                        <small class="text-muted">1 min ago</small>
+                                    </p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon">
+                                        <img src="assets/images/users/user-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                    <p class="notify-details">Karen Robinson</p>
+                                    <p class="text-muted mb-0 user-msg">
+                                        <small>Wow ! this admin looks good and awesome design</small>
+                                    </p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-warning">
+                                        <i class="mdi mdi-account-plus"></i>
+                                    </div>
+                                    <p class="notify-details">New user registered.
+                                        <small class="text-muted">5 hours ago</small>
+                                    </p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-info">
+                                        <i class="mdi mdi-comment-account-outline"></i>
+                                    </div>
+                                    <p class="notify-details">Caleb Flakelar commented on Admin
+                                        <small class="text-muted">4 days ago</small>
+                                    </p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-secondary">
+                                        <i class="mdi mdi-heart"></i>
+                                    </div>
+                                    <p class="notify-details">Carlos Crouch liked
+                                        <b>Admin</b>
+                                        <small class="text-muted">13 days ago</small>
+                                    </p>
+                                </a>
+                            </div>
+
+                            <!-- All-->
+                            <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
+                                View all
+                                <i class="fi-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="dropdown notification-list">
+                        <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect waves-light" data-toggle="dropdown" href="apps-contacts.html#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <img src="assets/images/users/user-1.jpg" alt="user-image" class="rounded-circle">
+                            <span class="pro-user-name ml-1">
+                                Geneva <i class="mdi mdi-chevron-down"></i> 
+                            </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                            <!-- item-->
+                            <div class="dropdown-header noti-title">
+                                <h6 class="text-overflow m-0">Welcome !</h6>
+                            </div>
+
+                            <!-- item-->
+                            <a href="a4a-profile.html" class="dropdown-item notify-item">
+                                <i class="fe-user"></i>
+                                <span>My Account</span>
+                            </a>
+
+                           <!-- item-->
+                            <a href="index.html" class="dropdown-item notify-item">
+                                <i class="fe-power"></i>
+                                <span>Log out</span>
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <!-- LOGO -->
+                <div class="logo-box">
+                    <a href="a4a-stats.html" class="logo text-center">
+                        <span class="logo-lg">
+                            <img src="assets/images/a4a-logo-black.jpg" alt="" height="45" width="150">
+                            <!-- <span class="logo-lg-text-light">UBold</span> -->
+                        </span>
+                    </a>
+                </div>
+
+                <ul class="list-unstyled topnav-menu topnav-menu-left m-0">
+                    <li>
+                        <button class="button-menu-mobile waves-effect waves-light">
+                            <i class="fe-menu"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <!-- end Topbar -->
+
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="left-side-menu">
+
+                <div class="slimscroll-menu">
+
+                    <!--- Sidemenu -->
+                    <div id="sidebar-menu">
+
+                        <div class="big-profile">
+                            <div style="display: flex; justify-content: center;">
+                                <img src="assets/images/users/user-1.jpg" class="rounded-circle">
+                            </div>
+                            <h4 class="text-center">Geneva McKnight</h4>
+                            <p class="text-muted text-center">@webdesigner</p>
+                        </div>
+
+                        <ul class="metismenu" id="side-menu">
+
+                            <li class="menu-title">Navigation</li>
+
+                            <li>
+                                <a href="javascript: void(0);">
+                                    <i class="fe-airplay"></i>
+                                    <span class="badge badge-success badge-pill float-right">2</span>
+                                    <span> Dashboards </span>
+                                </a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                    <li>
+                                        <a href="a4a-stats.html">Stats</a>
+                                    </li>
+                                    <li>
+                                        <a href="a4a-events.html">Events</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="active">
+                                <a class="active" href="a4a-all-artist.html">
+                                    <i class="fe-users"></i>
+                                    <span> Artists </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);">
+                                    <i class="fe-credit-card"></i>
+                                    <span> Bookings </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                    <li>
+                                        <a href="a4a-book-process.html">Book Now</a>
+                                    </li>
+                                    <li>
+                                        <a href="a4a-invoices.html">Invoices</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="a4a-profile.html">
+                                    <i class="fe-user"></i>
+                                    <span> Profile </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="index.html">
+                                    <i class="fe-power"></i>
+                                    <span> Logout </span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- End Sidebar -->
+
+                    <div class="clearfix"></div>
+
+                </div>
+                <!-- Sidebar -left -->
+
+            </div>
+            <!-- Left Sidebar End -->
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Home</a></li>
+                                            <li class="breadcrumb-item active"><a href="javascript: void(0);">Artists</a></li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">Artists</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title --> 
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card-box">
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <form class="form-inline">
+                                                <div class="form-group">
+                                                    <label for="inputPassword2" class="sr-only">Search</label>
+                                                    <input type="search" class="form-control" id="inputPassword2" placeholder="Search...">
+                                                </div>
+                                                <div class="form-group mx-sm-3">
+                                                    <label for="status-select" class="mr-2">Sort By</label>
+                                                    <select class="custom-select" id="status-select">
+                                                        <option selected="">All</option>
+                                                        <option value="1">Musicians</option>
+                                                        <option value="2">Comedians</option>
+                                                        <option value="3">Dance Groups</option>
+                                                        <option value="4">Mcs</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="text-lg-right mt-3 mt-lg-0">
+                                                <button type="button" class="btn btn-success waves-effect waves-light mr-1"><i class="mdi mdi-settings"></i></button>
+                                            </div>
+                                        </div><!-- end col-->
+                                    </div> <!-- end row -->
+                                </div> <!-- end card-box -->
+                            </div><!-- end col-->
+                        </div>
+                        <!-- end row -->        
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="text-center card-box">
+                                    <div class="pt-2 pb-2">
+                                        <img src="assets/images/users/user-3.jpg" class="rounded-circle img-thumbnail avatar-xl" alt="profile-image">
+
+                                        <h4 class="mt-3"><a href="extras-profile.html" class="text-dark">Jose Chameleone</a></h4>
+                                        <p class="text-muted">Label <span> | </span> <span> <a href="apps-contacts.html#" class="text-pink">Leone Island</a> </span></p>
+
+                                        <button type="button" class="btn btn-primary btn-sm waves-effect waves-light">
+                                            <a href="a4a-book-process.html" class="text-white">Book</a>
+                                        </button>
+                                        <button type="button" class="btn btn-light btn-sm waves-effect">Follow</button>
+                                    </div> <!-- end .padding -->
+                                </div> <!-- end card-box-->
+                            </div> <!-- end col -->
+
+                            <div class="col-lg-4">
+                                <div class="text-center card-box">
+                                    <div class="pt-2 pb-2">
+                                        <img src="assets/images/users/user-4.jpg" class="rounded-circle img-thumbnail avatar-xl" alt="profile-image">
+
+                                        <h4 class="mt-3"><a href="extras-profile.html" class="text-dark">Bebe Cool</a></h4>
+                                        <p class="text-muted">Label  <span> | </span> <span> <a href="apps-contacts.html#" class="text-pink">Gagamel International</a> </span></p>
+
+                                        <button type="button" class="btn btn-primary btn-sm waves-effect waves-light">
+                                            <a href="a4a-book-process.html" class="text-white">Book</a>
+                                        </button>
+                                        <button type="button" class="btn btn-light btn-sm waves-effect">Follow</button>
+                                    </div> <!-- end .padding -->
+                                </div> <!-- end card-box-->
+                            </div> <!-- end col -->
+
+                            <div class="col-lg-4">
+                                <div class="text-center card-box">
+                                    <div class="pt-2 pb-2">
+                                        <img src="assets/images/users/user-5.jpg" class="rounded-circle img-thumbnail avatar-xl" alt="profile-image">
+
+                                        <h4 class="mt-3"><a href="extras-profile.html" class="text-dark">Bobi Wine</a></h4>
+                                        <p class="text-muted">Label <span> | </span> <span> <a href="apps-contacts.html#" class="text-pink">Fire Base</a> </span></p>
+
+                                        <button type="button" class="btn btn-primary btn-sm waves-effect waves-light">
+                                            <a href="a4a-book-process.html" class="text-white">Book</a>
+                                        </button>
+                                        <button type="button" class="btn btn-light btn-sm waves-effect">Follow</button>
+                                    </div> <!-- end .padding -->
+                                </div> <!-- end card-box-->
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="text-center card-box">
+                                    <div class="pt-2 pb-2">
+                                        <img src="assets/images/users/user-6.jpg" class="rounded-circle img-thumbnail avatar-xl" alt="profile-image">
+
+                                        <h4 class="mt-3"><a href="extras-profile.html" class="text-dark">John Black</a></h4>
+                                        <p class="text-muted">Label  <span> | </span> <span> <a href="apps-contacts.html#" class="text-pink">Black Magic Records</a> </span></p>
+
+                                        <button type="button" class="btn btn-primary btn-sm waves-effect waves-light">
+                                            <a href="a4a-book-process.html" class="text-white">Book</a>
+                                        </button>
+                                        <button type="button" class="btn btn-light btn-sm waves-effect">Follow</button>
+                                    </div> <!-- end .padding -->
+                                </div> <!-- end card-box-->
+                            </div> <!-- end col -->
+
+                            <div class="col-lg-4">
+                                <div class="text-center card-box">
+                                    <div class="pt-2 pb-2">
+                                        <img src="assets/images/users/user-7.jpg" class="rounded-circle img-thumbnail avatar-xl" alt="profile-image">
+
+                                        <h4 class="mt-3"><a href="extras-profile.html" class="text-dark">Eddy Kenzo</a></h4>
+                                        <p class="text-muted">Label <span> | </span> <span> <a href="apps-contacts.html#" class="text-pink">Big Talent</a> </span></p>
+
+                                        <button type="button" class="btn btn-primary btn-sm waves-effect waves-light">
+                                            <a href="a4a-book-process.html" class="text-white">Book</a>
+                                        </button>
+                                        <button type="button" class="btn btn-light btn-sm waves-effect">Follow</button>
+                                    </div> <!-- end .padding -->
+                                </div> <!-- end card-box-->
+                            </div> <!-- end col -->
+
+                            <div class="col-lg-4">
+                                <div class="text-center card-box">
+                                    <div class="pt-2 pb-2">
+                                        <img src="assets/images/users/user-8.jpg" class="rounded-circle img-thumbnail avatar-xl" alt="profile-image">
+
+                                        <h4 class="mt-3"><a href="extras-profile.html" class="text-dark">Daddy Andre</a></h4>
+                                        <p class="text-muted">Label <span> | </span> <span> <a href="apps-contacts.html#" class="text-pink">Daddy Andre Productions</a> </span></p>
+
+                                        <button type="button" class="btn btn-primary btn-sm waves-effect waves-light">
+                                            <a href="a4a-book-process.html" class="text-white">Book</a>
+                                        </button>
+                                        <button type="button" class="btn btn-light btn-sm waves-effect">Follow</button>
+                                    </div> <!-- end .padding -->
+                                </div> <!-- end card-box-->
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="text-center card-box">
+                                    <div class="pt-2 pb-2">
+                                        <img src="assets/images/users/user-2.jpg" class="rounded-circle img-thumbnail avatar-xl" alt="profile-image">
+
+                                        <h4 class="mt-3"><a href="extras-profile.html" class="text-dark">Vinka</a></h4>
+                                        <p class="text-muted">Label <span> | </span> <span> <a href="apps-contacts.html#" class="text-pink">Swangz Avenue</a> </span></p>
+
+                                        <button type="button" class="btn btn-primary btn-sm waves-effect waves-light">
+                                            <a href="a4a-book-process.html" class="text-white">Book</a>
+                                        </button>
+                                        <button type="button" class="btn btn-light btn-sm waves-effect">Follow</button>
+                                    </div> <!-- end .padding -->
+                                </div> <!-- end card-box-->
+                            </div> <!-- end col -->
+
+                            <div class="col-lg-4">
+                                <div class="text-center card-box">
+                                    <div class="pt-2 pb-2">
+                                        <img src="assets/images/users/user-9.jpg" class="rounded-circle img-thumbnail avatar-xl" alt="profile-image">
+
+                                        <h4 class="mt-3"><a href="extras-profile.html" class="text-dark">Sheebah</a></h4>
+                                        <p class="text-muted">Label <span> | </span> <span> <a href="apps-contacts.html#" class="text-pink">TNS</a> </span></p>
+
+                                        <button type="button" class="btn btn-primary btn-sm waves-effect waves-light">
+                                            <a href="a4a-book-process.html" class="text-white">Book</a>
+                                        </button>
+                                        <button type="button" class="btn btn-light btn-sm waves-effect">Follow</button>
+                                    </div> <!-- end .padding -->
+                                </div> <!-- end card-box-->
+                            </div> <!-- end col -->
+
+                            <div class="col-lg-4">
+                                <div class="text-center card-box">
+                                    <div class="pt-2 pb-2">
+                                        <img src="assets/images/users/user-10.jpg" class="rounded-circle img-thumbnail avatar-xl" alt="profile-image">
+
+                                        <h4 class="mt-3"><a href="extras-profile.html" class="text-dark">Nina Rose</a></h4>
+                                        <p class="text-muted">Label <span> | </span> <span> <a href="apps-contacts.html#" class="text-pink">Boombark</a> </span></p>
+
+                                        <button type="button" class="btn btn-primary btn-sm waves-effect waves-light">
+                                            <a href="a4a-book-process.html" class="text-white">Book</a>
+                                        </button>
+                                        <button type="button" class="btn btn-light btn-sm waves-effect">Follow</button>
+                                    </div> <!-- end .padding -->
+                                </div> <!-- end card-box-->
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="text-right">
+                                    <ul class="pagination pagination-rounded justify-content-end">
+                                        <li class="page-item">
+                                            <a class="page-link" href="javascript: void(0);" aria-label="Previous">
+                                                <span aria-hidden="true">«</span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item active"><a class="page-link" href="javascript: void(0);">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript: void(0);">4</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript: void(0);">5</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="javascript: void(0);" aria-label="Next">
+                                                <span aria-hidden="true">»</span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+                        
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                2015 - 2019 &copy; <a href="">A4A Events</a> 
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-md-right footer-links d-none d-sm-block">
+                                    <a href="javascript:void(0);">About Us</a>
+                                    <a href="javascript:void(0);">Help</a>
+                                    <a href="javascript:void(0);">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- Modal-Effect -->
+        <script src="assets/libs/custombox/custombox.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+</html>
