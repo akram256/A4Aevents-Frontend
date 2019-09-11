@@ -1,0 +1,62 @@
+{
+	"name": "A4AEvents",
+	"version": "1.0.0",
+	"description": "This application eases access for artist",
+	"main": "app.js",
+	"repository": "https://github.com/akram256/A4Aevents-Frontend.git",
+	"author": "Akram Mukasa & Deogratius Bagenda",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"dev": "webpack-dev-server --config build/webpack.config.dev.js",
+		"lint": "eslint --ext .js,.vue src",
+		"lint:fix": "eslint --ext .js,.vue src --fix",
+    "test": "jest"
+	},
+	"dependencies": {
+		"@babel/core": "^7.6.0",
+		"@babel/preset-env": "^7.6.0",
+		"@vue/test-utils": "^1.0.0-beta.29",
+		"babel-eslint": "^10.0.3",
+		"babel-jest": "^24.9.0",
+		"babel-loader": "^8.0.6",
+		"copy-webpack-plugin": "^5.0.4",
+		"css-loader": "^3.2.0",
+		"eslint": "^6.3.0",
+		"eslint-config-standard": "^14.1.0",
+		"eslint-loader": "^3.0.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-node": "^10.0.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"eslint-plugin-vue": "^5.2.3",
+		"html-webpack-plugin": "^3.2.0",
+		"jest": "^24.9.0",
+		"jest-serializer-vue": "^2.0.2",
+		"vue": "^2.6.10",
+		"vue-jest": "^3.0.5",
+		"vue-loader": "^15.7.1",
+		"vue-router": "^3.1.3",
+		"vue-style-loader": "^4.1.2",
+		"vue-template-compiler": "^2.6.10",
+		"webpack": "^4.39.3",
+		"webpack-cli": "^3.3.8",
+		"webpack-dev-server": "^3.8.0"
+	},
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
+    },
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/jest-serializer-vue"
+    ]
+  }
+}
